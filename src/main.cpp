@@ -624,6 +624,7 @@ void showSettingScreen()
                 repMax = eeprom[2];
                 restTime = eeprom[3];
                 beepVolume = eeprom[4];
+                M5.Speaker.setVolume(beepVolume);
                 drawSettingValues(currentSettingItem, currentSettingValue);
             }
         }
