@@ -13,4 +13,8 @@ const char* msgBtnAbort     = "Abort";
 const char* msgBtnPause     = "Pause";
 const char* msgBtnRestart   = "Restart";
 const char* msgBtnOk        = "OK";
-const char* msgReady        = "Ready to Start!";
+const char* msgBtnReturn    = "Return";
+const char* msgBtnNext      = "Next";
+const char* msgBtnSelect    = "Select";
+
+const char* msgReady        = "Ready to Go";
